@@ -1,7 +1,12 @@
 body {
   margin: 0;
   padding: 18px 20px 60px 20px;
-  font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+  font-family:   
+    "Pretendard",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Apple SD Gothic Neo",
+    sans-serif;
   background-color: #F5F5F5;
   color: #121212;
   font-size: 16px;
