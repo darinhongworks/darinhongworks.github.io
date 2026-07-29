@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 18px 20px 60px 20px;
+  padding: 18px 10px 60px 10px;
   font-family:   
     "Pretendard",
     -apple-system,
@@ -16,24 +16,24 @@ body {
 /* 사이트 이름 */
 h1 {
   margin: 0 0 28px 0;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 1.1;
 }
 
 /* Works, About 같은 큰 구분 */
 h2 {
-  margin: 32px 0 12px 0;
-  font-size: 16px;
-  font-weight: normal;
+  margin: 0px 0 12px 0;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 1.2;
 }
 
 /* 각 작품 제목 */
 h3 {
   margin: 0;
-  font-size: 16px;
-  font-weight: normal;
+  font-size: 14px;
+  font-weight: 400;
   line-height: 1.25;
 }
 
