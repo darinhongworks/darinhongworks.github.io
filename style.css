@@ -70,3 +70,50 @@ img {
   height: auto;
   margin: 12px 0 6px 0;
 }
+
+.work-page {
+  max-width: 1000px;
+}
+
+.work-info {
+  margin-bottom: 40px;
+}
+
+.work-info h1 {
+  margin: 0 0 3px 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.work-title-en {
+  margin: 0 0 10px 0;
+}
+
+.work-details {
+  margin: 0;
+}
+
+.work-images {
+  margin-top: 40px;
+}
+
+.work-images img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.work-description {
+  max-width: 650px;
+  margin-top: 50px;
+}
+
+.work-description p {
+  margin: 0 0 18px 0;
+}
+
+.back-link {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
