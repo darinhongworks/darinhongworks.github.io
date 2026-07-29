@@ -1,22 +1,66 @@
 body {
   margin: 0;
-  padding: 40px;
+  padding: 18px 20px 60px 20px;
   font-family: "Noto Sans", "Noto Sans KR", sans-serif;
-  background-color: #ffffff;
-  color: #111111;
+  background-color: #F5F5F5;
+  color: #121212;
+  font-size: 16px;
+  line-height: 1.25;
 }
 
+/* 사이트 이름 */
 h1 {
-  font-size: 32px;
-  margin-bottom: 10px;
+  margin: 0 0 28px 0;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.1;
 }
 
+/* Works, About 같은 큰 구분 */
 h2 {
-  margin-top: 80px;
-  font-size: 24px;
+  margin: 32px 0 12px 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+/* 각 작품 제목 */
+h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.25;
 }
 
 p {
-  font-size: 18px;
-  line-height: 1.6;
+  margin: 0 0 10px 0;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+/* 링크 */
+a {
+  color: #0000EE;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #551A8B;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* 섹션 사이 간격 */
+section {
+  margin-bottom: 36px;
+}
+
+/* 이미지 */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 12px 0 6px 0;
 }
