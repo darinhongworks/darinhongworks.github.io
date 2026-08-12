@@ -8,17 +8,17 @@ body {
     "Noto Sans KR",
     sans-serif;
 
-  background-color: #f5f5f5;
+  background-color: #ebf0d0;
   color: #121212;
 
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.35;
 }
 
 .page {
   width: 100%;
-  max-width: 800px;
+  max-width: 869px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -26,14 +26,14 @@ body {
 h1,
 h2 {
   margin: 0 0 10px;
-  font-size: 20px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.2;
 }
 
 p {
   margin: 0;
-  font-size: 20px;
+  font-size: 12px;
   line-height: 1.35;
 }
 
@@ -51,7 +51,7 @@ a:visited {
 a:hover,
 a:visited:hover {
   color: #ffffff;
-  background-color: #0000ee;
+  background-color: #000000;
 }
 
 section {
@@ -59,9 +59,30 @@ section {
 }
 
 img {
-  display: block;
-  width: auto;
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
-  margin: 12px 0 20px;
+  
+}
+
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+img {
+   display: block;
+  width: 100%;
+  height: auto;
+  margin: 8px 0;
+}
+
+.secret-award {
+  color: transparent;
+  user-select: text;
+}
+
+.secret-award::selection {
+  color: #121212;
+  
 }
